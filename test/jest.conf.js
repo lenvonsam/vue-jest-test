@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  rootDir: path.resolve(__dirname, '../../'),
+  rootDir: path.resolve(__dirname, '../'),
   moduleFileExtensions: [
     'js',
     'json',
@@ -15,9 +15,10 @@ module.exports = {
     '.*\\.(vue)$': '<rootDir>/node_modules/vue-jest'
   },
   snapshotSerializers: ['<rootDir>/node_modules/jest-serializer-vue'],
-  setupFiles: ['<rootDir>/test/unit/setup'],
+  setupFiles: ['<rootDir>/test/setup'],
   mapCoverage: true,
-  coverageDirectory: '<rootDir>/test/unit/coverage',
+  coverageDirectory: '<rootDir>/test/report',
+  testResultsProcessor: 'jest-vue-report',
   collectCoverageFrom: [
     'src/**/*.{js,vue}',
     '!src/main.js',

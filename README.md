@@ -1,6 +1,6 @@
 # vue-jest
 
-> A Vue.js project
+> Use the jest test framework to unit and integrate test cases for the vuejs project.
 
 ## Build Setup
 
@@ -24,4 +24,4 @@ npm run unit
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For a detailed explanation on how things work, check out the [guide](https://github.com/lenvonsam/vue-jest-test/wiki/*-Vue-jest-test-%E5%BC%95%E8%A8%80) and [docs for test report](https://juejin.im/user/5833ab843923c7006b027784).
