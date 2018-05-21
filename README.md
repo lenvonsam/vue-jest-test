@@ -24,4 +24,4 @@ npm run unit
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](https://github.com/lenvonsam/vue-jest-test/wiki/*-Vue-jest-test-%E5%BC%95%E8%A8%80) and [docs for test report](https://juejin.im/user/5833ab843923c7006b027784).
+For a detailed explanation on how things work, check out the [guide](https://github.com/lenvonsam/vue-jest-test/wiki/*-Vue-jest-test-%E5%BC%95%E8%A8%80) and [docs for test report](https://juejin.im/post/5affc8556fb9a07aa6320833).
